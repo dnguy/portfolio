@@ -1,0 +1,130 @@
+.home-body {
+	background-color: #2EE0DB;
+	color: white;
+	text-align: center;
+	width: 1000px;
+	margin: 0 auto;
+}
+.index-header .header1, .header4 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 85px;
+	text-transform: uppercase;
+	line-height: .5em;
+}
+.index-header .header2 {
+	font-family: "Palatino Linotype", "Book Antiqua", serif;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin: -2% 0px;
+}
+.index-header .header3 {
+	font-family: "Palatino Linotype", "Book Antiqua", serif;
+	font-size: 45px;
+	text-transform: uppercase;
+}
+.header4 {
+	font-size: 30px;
+}
+.index-header .header5 {
+	font-family: Arial, Helvetica, "sans-serif";
+	font-size: 50px;
+}
+.navigation-container a {
+	text-decoration: none;
+}
+.menu1:hover {
+	background-color:#4C63D0;
+  	text-decoration:none;
+  	color:#FFFFFF;
+}
+.menu1 {
+	cursor:pointer;
+	color: black;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.4);
+    display: inline-block;
+	margin-top:100px;
+	margin-left: 25px;
+	width: 150px;
+	height:113px;
+	border-radius:5px;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	line-height: 500%;
+}
+.about-content{
+	height: 1000px;
+}
+.about-body {
+	width: 1000px;
+	margin: 0 auto;
+}
+.about-img {
+	width: 265px;
+	height: 176px;
+	display: inline-block;
+	margin: 7% 12%;
+}
+.about-img img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.about-img .name-header {
+	margin:0;
+	padding:0;
+	font-size: 55px;
+	font-family: Arial, Helvetica, "sans-serif";
+}
+.about-img .name-title {
+	font-size: 20px;
+	font-family: Arial, Helvetica, "sans-serif";
+}
+.about-navigation {
+	width: 1000px;
+	height: 70px;
+	font-size: 18px;
+	border-bottom: 1px solid rgb(159, 155, 155);
+	-webkit-box-shadow: 0 4px 4px -2px #000000;
+   -moz-box-shadow: 0 4px 4px -2px #000000;
+        box-shadow: 0 4px 4px -2px #000000;
+}
+.about-navigation ul {
+	float: right;
+}
+.about-navigation a {
+	text-decoration: none;
+	color: rgb(135, 135, 149);
+}
+.about-navigation ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 91px;
+	font-family: Arial, Helvetica, "sans-serif";
+}
+.body-img {
+	width: 1000px;
+	height: 250px;
+	background: rgb(238, 164, 164);;
+}
+.about-txt {
+	display: inline-block;
+	width: 430px;
+}
+.footer {
+	width: 1000px;
+	height: 75px;
+	background: black;
+	color: white;
+}
+.footer-container {
+	float: right;
+	margin-right: 10%;
+	margin-top: 2%;
+	width: 20%;
+}
+.footer-container a {
+	margin-left: 16%;
+
+}
