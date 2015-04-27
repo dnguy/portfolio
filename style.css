@@ -1,9 +1,11 @@
-.home-body {
-	background-color: #2EE0DB;
-	color: white;
-	text-align: center;
+body {
 	width: 1000px;
 	margin: 0 auto;
+}
+.home-body {
+	background-color: black;
+	color: white;
+	text-align: center;
 }
 .index-header .header1, .header4 {
 	font-family: Impact, Charcoal, sans-serif;
@@ -56,10 +58,6 @@
 .about-content{
 	height: 1000px;
 }
-.about-body {
-	width: 1000px;
-	margin: 0 auto;
-}
 .about-img {
 	width: 265px;
 	height: 176px;
@@ -81,7 +79,7 @@
 	font-size: 20px;
 	font-family: Arial, Helvetica, "sans-serif";
 }
-.about-navigation {
+.header-navigation {
 	width: 1000px;
 	height: 70px;
 	font-size: 18px;
@@ -90,14 +88,14 @@
    -moz-box-shadow: 0 4px 4px -2px #000000;
         box-shadow: 0 4px 4px -2px #000000;
 }
-.about-navigation ul {
+.header-navigation ul {
 	float: right;
 }
-.about-navigation a {
+.header-navigation a {
 	text-decoration: none;
 	color: rgb(135, 135, 149);
 }
-.about-navigation ul li {
+.header-navigation ul li {
 	list-style: none;
 	display: inline-block;
 	margin-right: 91px;
@@ -106,7 +104,7 @@
 .body-img {
 	width: 1000px;
 	height: 250px;
-	background: rgb(238, 164, 164);;
+	background: black;
 }
 .about-txt {
 	display: inline-block;
@@ -127,4 +125,50 @@
 .footer-container a {
 	margin-left: 16%;
 
+}
+.copyright {
+	font-size: 12px;
+	padding: 3% 8%;
+}
+.skills-content h1 {
+	  margin: 6% 41%;
+  width: 205px;
+  font-size: 50px;
+}
+.skillset {
+	list-style: none;
+	margin-top: 8%;
+}
+.skillset li {
+	  display: inline-block;
+  border: 1px solid black;
+  margin-left: -4px;
+  height: 160px;
+  width: 24%;
+  text-align: center;
+  position: relative;
+  line-height: 150px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, "sans-serif";
+}
+.skillset li:hover {
+	color: white;
+	background-color: black;
+}
+.resume {
+	text-decoration: none;
+  	display: inline-block;
+  	border: 1px solid black;
+  	height: 50px;
+  	width: 160px;
+  	text-align: center;
+  	line-height: 48px;
+  	margin: 8% 43%;
+  	color: white;
+  	font-size: 18px;
+  	background: black;
+  	border-radius: 8%;
+}
+.resume:hover {
+	background:red;
 }
