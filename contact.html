@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-		<title>Contact HTML</title>
-		<link rel="stylesheet" href="style.css">
-		</head>
-		<body>
-			<div class="contact-header">
+<html>
+
+<head>
+    <title>Contact HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contact-header">
         <div class="header-navigation">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -16,45 +18,35 @@
         </div>
     </div>
     <div class="contact-content">
-    <h2>Send a message<h2>
-
-			<form>
-				
-				<input placeholder="First name" type="text" name="firstname"> 
-				<input placeholder="Last name" type="text" name="lastname">
-				<br><br>
-
-				<input placeholder="Email Address" type="text" name="email-address">
-				<input placeholder="Phone number" type="tel" name="phone-number">
-
-				<br><br>
-
-				<select name="contact">
-					<option value="student">I am a student</option>
-					<option value="employer">I am an employer</option>
-					<option value="Other">Other</option>
-				</select>
-
-				<br><br>
-
-				<textarea placeholder="Your message" cols="60" rows="5" name="message"></textarea>
-
-				<br><br>
-
-				<button name="submit">
-					<strong>Submit</strong>
-				</button>
-
-			</form>
+    <!--http://codetic.net/demo/?item=privado_wp-->
+        <h1>Send a message</h1>
+        <div class="form-container">
+            <form class="contact-form">
+                <input class="name" placeholder="Name" type="text" name="name">
+                <input class="email" placeholder="Email" type="text" name="email">
+                <input class="subject" placeholder="Subject" type="text" name="subject">
+                <textarea placeholder="Your message" cols="60" rows="5" name="message"></textarea>
+                <button name="submit">
+                    <strong>Submit</strong>
+                </button>
+            </form>
+        </div>
     </div>
     <div class="footer">
+        <div class="phone-email">
+            <p>Phone: (714) 209 - 1626</p>
+            <p>Email: dnguy008@gmail.com</p>
+        </div>
+        <div class="copyright">
+            <p>Copyright@2015 dnguy. All rights reserved.</p>
+        </div>
         <div class="footer-container">
             <a href="http://www.linkedin.com" target="_blank"><img src="images/linkedin.png" /></a>
             <a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png"></a>
             <a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png" /></a>
         </div>
-        <p class="copyright">Copyright@2015 dnguy. All rights reserved.</p>
     </div>
-			
-		</body>
-	</html>
+    </div>
+</body>
+
+</html>
