@@ -5,17 +5,28 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=League+Script' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,300italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body class="home-body">
 <!--http://tejpotter.com/#webtuts-->
     <div class="top-logo">
-    <h1 class="firstname">Daniel</h1><h1 class="lastname">Nguy</h1>
+    <h1 class="firstname">Daniel Nguy</h1>
     <div class="box"><b></b></div>
+    <div class="social-icons">
+        <a href="http://www.gmail.com" target="_blank"><img src="images/gmail.png"></a>
+        <a href="http://www.linkedin.com" target="_blank"><img src="images/linkedin.png"></a>
+            <a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png"></a>
+            <a href="http://www.facebook.com" target="_blank"><img src="images/facebook.png" /></a>
+            <a href="http://www.github.com" target="_blank"><img src="images/github.png" /></a>
+        </div>
+    
     </div>
     </div>
     <div class="index-nav">
-        <div class="home-navigation">
+    <div class="home-navigation">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
@@ -23,23 +34,37 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
+    
+        
     </div>
     <div class="index-content">
-        <header class="index-header">
-            <h1 class="header1">Hello</h1>
-            <h1 class="header1">I'm  Daniel</h1>
-            <h1 class="header2"> A Junior</h1>
-            <h1 class="header3">Web Developer</h1>
-            <h1 class="header4">from</h1>
-            <h1 class="header5">Orange County</h1>
-        </header>
+    <div>
+    <div class="home-intro"><h1>Hi, I'm Daniel</h1></div>
+    <p class="home-intro2">Web Developer from <br>
+    Orange County</p>
     </div>
-    <!--http://metaphorcreations.com/apex/#apex-page-116
-    <nav class="navigation-container">
-        <a class="menu1" href="about.html">About Me</a>
-        <a class="menu1" href="skills.html">Skills</a>
-        <a class="menu1" href="contact.html">Contact</a>
-    </nav>-->
+    <div class="bottom-scroll">
+        <div class="circle">
+        <div class="arrow">&#9660;<div>
+        </div>
+    <script>
+    $(document).ready(function() { 
+        circle_inflate(); 
+    });
+    function circle_inflate() { $(".circle").animate( 
+        { height: 70, 
+            width:70, 
+            left:640, 
+            top:55 
+        },700,function(){circle_deflate();}); 
+    }
+    function circle_deflate() { $(".circle").animate( { 
+        height: 50, width:50, left:650, top:65
+    },700,function(){
+        circle_inflate();}); 
+}
+    </script>
+    
 </body>
 
 </html>
