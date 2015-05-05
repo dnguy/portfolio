@@ -39,15 +39,17 @@ body {
 	margin-left: 20%;
 }
 .top-logo {
-	width:1275px;
+	width:1230px;
 	height: 68px;
 	background: white;
 
 }
 .social-icons {
+	display:inline-block;
 	position: relative;
-	left: 42%;
-	top: 22%;
+	left: 41%;
+	margin-top: 1%;
+	width: 16%;
 }
 .social-icons a img {
 	width: 35px;
@@ -112,7 +114,7 @@ font-family: 'Alegreya Sans', sans-serif;
 	border-top: 1px solid black;
   width: 100%;
   position: absolute;
-  height: 140px;
+  height: 130px;
   top: 79%;
   background: #FFD000;
 
@@ -283,52 +285,97 @@ font-family: 'Alegreya Sans', sans-serif;
 	background:red;
 }
 .contact-content h1 {
-	margin: 8% 38%;
+	margin-top: 8%;
+	margin-left: 22%%;
 	font-size: 30px;
 	font-family: Arial, Helvetica, "sans-serif";
 }
 .form-container {
-	height: 500px;
-	width: 66%;
-	margin: 7% 17%;
+	display:inline-block;
+	height: 415px;
+	width: 35%;
 	border: 1px solid black;
-	margin-bottom: 13%;
+	margin-left: 15%;
 }
 .contact-form {
-	width: 115%;
-	margin: 7% 12%;
+	padding-top: 4%;
 }
-.contact-form .name, .email {
-	height: 44px;
-  	width: 32%;
+.contact-form .name, .email, .subject {
+	height: 36px;
+  	width: 80%;
   	display: inline-block;
 }
-.contact-form .email {
-	margin-left: 1%;
-}
-.contact-form .subject {
-	width: 67%;
-	height: 44px;
-	margin: 5% 0%;
-}
 .contact-form input {
-	font-size: 20px;
+	font-size: 15px;
 	padding-left: 1%;
+	margin-left: 9%;
+	margin-bottom: 7%;
+	border-radius: 7px;
 }
 .contact-form textarea {
-	width: 67%;
-	height: 134px;
-	font-size: 20px;
+	width: 80%;
+	height: 155px;
+	font-size: 15px;
 	padding-left: 1%;
+	margin-left: 9%;
+	margin-bottom: 7%;
+	border-radius: 7px;
 }
 button {
 	width: 67%;
 	height: 50px;
-	margin-top: 5%;
-	font-size: 20px;
+	margin-top: 3%;
+	font-size: 15px;
+	margin-left:15%;
+	margin-bottom:5%;
+	background: rgb(94, 206, 229);
 }
 button:hover {
 	cursor: pointer;
 	background: black;
 	color: white;
+}
+.contact-info {
+	display: inline-block;
+	position: absolute;
+  width: 400px;
+  height: 500px;
+  margin-left: 13%;
+  top: 35%;
+}
+.email-phone {
+	width: 50%;
+  height: 40%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+.email-phone p {
+	text-align:center;
+	margin-top: 47%;
+}
+.home-pictures {
+	display: inline-block;
+	width: 400px;
+}
+.kobe {
+	position:absolute;
+	width: 300px;
+  margin-top: 3%;
+  margin-left: 25%;
+}
+.grinch {
+position:absolute;
+	width: 300px;
+  margin-top: 3%;
+  margin-left: 25%;
+}
+.img-change {
+	margin-top: 67%;
+	margin-left: 81%;
+}
+.grinch-opacity {
+	opacity: 0;
 }
