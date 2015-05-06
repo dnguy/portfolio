@@ -8,13 +8,20 @@
     <link href='http://fonts.googleapis.com/css?family=League+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,300italic' rel='stylesheet' type='text/css'>
+    <script>
+    $(document).ready(function(){
+    $(".grinch").hover(function() {
+        $(this).attr("src","images/kobe.png");
+            }, function() {
+        $(this).attr("src","images/grinch.png");
+    });
+});
+   </script> 
 </head>
 
 <body class="home-body">
-<!--http://tejpotter.com/#webtuts-->
     <div class="top-logo">
     <h1 class="firstname">Daniel Nguy</h1>
-    <div class="box"><b></b></div>
     <div class="social-icons">
         <a href="http://www.gmail.com" target="_blank"><img src="images/gmail.png"></a>
         <a href="http://www.linkedin.com" target="_blank"><img src="images/linkedin.png"></a>
@@ -44,9 +51,7 @@
     Orange County</p>
     </div>
     <div class="home-pictures">
-        <img class="kobe" src="images/kobe.jpg">
-        <img class="grinch" src="images/grinch.jpg">
-        <button class="img-change" onclick="$('.grinch').toggleClass('grinch-opacity')">Click me</button>
+        <img class="grinch" src="images/grinch.png">
     </div>
     </div>
     <div class="bottom-scroll">

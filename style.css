@@ -6,13 +6,10 @@ body {
 	font-family: 'League Script', cursive;
   font-size: 40px;
   display: inline-block;
-  position: absolute;
-  left: 4%;
   word-spacing: 19px;
-  top: -2%;
+  float: left;
+  margin: 1% 4%;
 }
-
-
 .index-nav {
 	width: 100%;
 	height: 60px;
@@ -46,10 +43,8 @@ body {
 }
 .social-icons {
 	display:inline-block;
-	position: relative;
-	left: 41%;
 	margin-top: 1%;
-	width: 16%;
+	float:right;
 }
 .social-icons a img {
 	width: 35px;
@@ -58,39 +53,6 @@ body {
 	background-color: white;
 	color: black;
 	text-align: center;
-}
-
-.index-header .header1, .header4 {
-	font-family: Impact, Charcoal, sans-serif;
-	font-size: 85px;
-	text-transform: uppercase;
-	line-height: .5em;
-}
-.index-header .header2 {
-	font-family: "Palatino Linotype", "Book Antiqua", serif;
-	font-size: 35px;
-	text-transform: uppercase;
-	margin: -2% 0px;
-}
-.index-header .header3 {
-	font-family: "Palatino Linotype", "Book Antiqua", serif;
-	font-size: 45px;
-	text-transform: uppercase;
-}
-.header4 {
-	font-size: 30px;
-}
-.index-header .header5 {
-	font-family: Arial, Helvetica, "sans-serif";
-	font-size: 50px;
-}
-.navigation-container a {
-	text-decoration: none;
-}
-.menu1:hover {
-	background-color: white;
-  	text-decoration:none;
-  	color: black;
 }
 .home-intro {
 	position: absolute;
@@ -119,15 +81,6 @@ font-family: 'Alegreya Sans', sans-serif;
   background: #FFD000;
 
 }
-
-.imac-image {
-	width: 37%;
-  height: 379px;
-  position: relative;
-  right: 24%;
-  margin-top: 3%;
-  display: none;
-}
 .circle {
 	width: 50px;
   height: 50px;
@@ -143,51 +96,34 @@ font-family: 'Alegreya Sans', sans-serif;
 	position: relative;
 	top: 30%;
 }
-.menu1 {
-	cursor:pointer;
-	color: black;
-	font-size: 20px;
-	background-color: rgba(255, 255, 255, 0.4);
-    display: inline-block;
-	margin-top:100px;
-	margin-left: 25px;
-	width: 150px;
-	height:113px;
-	border-radius:5px;
-	border-width:1px;
-	border-style:solid;
-	border-color:white;
-	line-height: 500%;
-}
 .about-img {
 	width: 265px;
-	height: 176px;
+	height: 435px;
 	display: inline-block;
 	margin: 7% 12%;
+	border: 1px solid black;
+	  background: rgb(255, 80, 80);
+
 }
 .about-img img {
-	max-width: 100%;
-	height: auto;
+	margin-left: 21%;
 	border-radius: 50%;
+	margin-top: 11%;
 }
 .about-img .name-header {
 	margin:0;
-	padding:0;
 	font-size: 55px;
 	font-family: Arial, Helvetica, "sans-serif";
+	margin-left: 21%;
+	margin-right: 15%;
 }
+
 .about-img .name-title {
 	font-size: 20px;
-	font-family: Arial, Helvetica, "sans-serif";
-}
-.header-navigation {
-	width: 100%;
-	height: 70px;
-	font-size: 18px;
-	border-bottom: 1px solid rgb(159, 155, 155);
-	-webkit-box-shadow: 0 4px 4px -2px #000000;
-   -moz-box-shadow: 0 4px 4px -2px #000000;
-        box-shadow: 0 4px 4px -2px #000000;
+  font-family: Arial, Helvetica, "sans-serif";
+  position: relative;
+  top: 5%;
+  margin-left: 7%;
 }
 .header-navigation ul {
 	float: right;
@@ -286,20 +222,23 @@ font-family: 'Alegreya Sans', sans-serif;
 }
 .contact-content h1 {
 	margin-top: 8%;
-	margin-left: 22%%;
+	margin-left: 24%;
 	font-size: 30px;
 	font-family: Arial, Helvetica, "sans-serif";
 }
 .form-container {
 	display:inline-block;
-	height: 415px;
+	height: 545px;
 	width: 35%;
 	border: 1px solid black;
 	margin-left: 15%;
+	margin-bottom: 4%;
 }
 .contact-form {
 	padding-top: 4%;
+	background: rgb(0, 189, 255);
 }
+
 .contact-form .name, .email, .subject {
 	height: 36px;
   	width: 80%;
@@ -309,8 +248,9 @@ font-family: 'Alegreya Sans', sans-serif;
 	font-size: 15px;
 	padding-left: 1%;
 	margin-left: 9%;
-	margin-bottom: 7%;
+	margin-bottom: 2%;
 	border-radius: 7px;
+	margin-top: 5%;
 }
 .contact-form textarea {
 	width: 80%;
@@ -319,6 +259,7 @@ font-family: 'Alegreya Sans', sans-serif;
 	padding-left: 1%;
 	margin-left: 9%;
 	margin-bottom: 7%;
+	margin-top: 7%;
 	border-radius: 7px;
 }
 button {
@@ -328,7 +269,7 @@ button {
 	font-size: 15px;
 	margin-left:15%;
 	margin-bottom:5%;
-	background: rgb(94, 206, 229);
+	background: rgb(255, 15, 53);
 }
 button:hover {
 	cursor: pointer;
@@ -344,6 +285,7 @@ button:hover {
   top: 35%;
 }
 .email-phone {
+	position:relative;
 	width: 50%;
   height: 40%;
   border: 1px solid black;
@@ -354,7 +296,7 @@ button:hover {
 }
 .email-phone p {
 	text-align:center;
-	margin-top: 47%;
+	margin-top: 40%;
 }
 .home-pictures {
 	display: inline-block;
@@ -370,12 +312,11 @@ button:hover {
 position:absolute;
 	width: 300px;
   margin-top: 3%;
-  margin-left: 25%;
 }
-.img-change {
-	margin-top: 67%;
-	margin-left: 81%;
-}
-.grinch-opacity {
-	opacity: 0;
+.lastname{
+border-bottom: 1px solid black;
+  padding-bottom: 3%;
+  box-shadow: 0 2px 0px black;
+  position:relative;
+  left: 5%;
 }

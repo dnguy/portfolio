@@ -9,28 +9,20 @@
     <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,300italic' rel='stylesheet' type='text/css'>
     <script>
-    var email_name = 'dnguy008';
+    $(document).ready(function() {
+        var email_name = 'dnguy008';
     var server_name = '@gmail.com';
     var email = email_name + server_name;
-    $('.email-address > p').html('email: ' + email);
+    $('.email-address > p').html('email: <br> ' + email);
+    });
     </script>
 </head>
 
 
 <body>
- <!--<div class="contact-header">
-        <div class="header-navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>-->
+ 
     <div class="top-logo">
     <h1 class="firstname">Daniel Nguy</h1>
-    <div class="box"><b></b></div>
     <div class="social-icons">
         <a href="http://www.gmail.com" target="_blank"><img src="images/gmail.png"></a>
         <a href="http://www.linkedin.com" target="_blank"><img src="images/linkedin.png"></a>
@@ -53,7 +45,6 @@
     
         
     <div class="contact-content">
-    <!--http://codetic.net/demo/?item=privado_wp-->
         <h1>Send a message</h1>
         <div class="form-container">
             <form class="contact-form">
@@ -67,16 +58,11 @@
             </form>
         </div>
         <div class="contact-info">
-            <div class="email-phone phone-number"><p>Phone</p></div>
+            <div class="email-phone phone-number"><p>Phone: <br> (714) 209-1626</p></div>
             <div class="email-phone email-address"><p></p></div>
         </div>
     </div>
-    <script>
-    var email_name = 'dnguy008';
-    var server_name = '@gmail.com';
-    var email = email_name + server_name;
-    $('.email-address > p').html('email: <br> ' + email);
-    </script>
+    
     <!--<div class="footer">
         <div class="phone-email">
             <p>Phone: (714) 209 - 1626</p>
