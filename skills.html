@@ -7,24 +7,18 @@
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/main.js"></script>
     <link href='http://fonts.googleapis.com/css?family=League+Script' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Alegreya+Sans:400,300italic' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
-<body onload="loadpage('home')">
+<body>
     <div class="col-xs-12">
-        <div class="col-xs-10 col-sm-6">
+        <div class="col-xs-12 col-sm-6">
             <h1 class="firstname">Daniel Nguy</h1>
         </div>
-        <button type="button" class="navbar-toggle col-xs-1" data-toggle="collapse" data-target=".navHeaderCollapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <div class="col-xs-10 col-sm-6 social_media">
+        <div class="col-xs-12 col-sm-6 social_media">
             <a href="http://www.gmail.com" target="_blank"><img src="images/gmail.png"></a>
             <a href="http://www.linkedin.com" target="_blank"><img src="images/linkedin.png"></a>
             <a href="http://www.twitter.com" target="_blank"><img src="images/twitter.png"></a>
@@ -33,29 +27,45 @@
         </div>
     </div>
     </div>
-    <div class="col-xs-12 main_nav hidden-xs">
+    <div class="col-xs-12 main_nav">
         <ul class="nav navbar navbar-nav">
-            <li><a class="home_link">HOME</a></li>
-            <li><a class="about_link">ABOUT ME</a></li>
-            <li><a class="skills_link">SKILLS</a></li>
-            <li><a class="contact_link">CONTACT</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
-    <div class="container hidden-sm hidden-md hidden-lg">
-        <div class="collapse navbar-collapse navHeaderCollapse well col-xs-12">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a class="home_link">HOME</a></li>
-                <li><a class="about_link">ABOUT ME</a></li>
-                <li><a class="skills_link">SKILLS</a></li>
-                <li><a class="contact_link">CONTACT</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class='col-xs-12 visible-xs black_strip'></div>
     <section class="main_content">
-
+        <div class="col-xs-12 skills">
+            <h1>My Skills</h1>
+        </div>
+        <div class="col-xs-10 col-xs-offset-1 skill_set">
+            <div class="col-sm-3 col-xs-12">
+                <h3>Front End</h3>
+                <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Javascript</li>
+                <li>JQuery</li>
+                <li>Bootstrap</li>
+                <li>Ajax</li>
+            </ul>
+            </div>
+            <div class="col-xs-3">
+                <h3>Back End</h3>
+                <ul>
+                <li>PHP</li>
+                <li>MySQL</li>
+            </ul>
+            </div>
+            <div class="col-xs-3">
+                <h3>ETC</h3>
+                <ul>
+                <li>Github</li>
+                </ul>
+            </div>
+        </div>
     </section>
-   
 </body>
 
 </html>

@@ -1,0 +1,339 @@
+body {
+	margin: 0 auto;
+}
+
+.firstname, .lastname {
+	font-family: 'League Script', cursive;
+  font-size: 40px;
+  display: inline-block;
+  word-spacing: 19px;
+  float: left;
+  margin: 1% 4%;
+}
+.index-nav {
+	width: 100%;
+	height: 60px;
+	border: 1px solid black;
+}
+.home-navigation {
+	width: 83%;
+	padding-top: 1px;
+	position:relative;
+}
+.home-navigation a {
+	text-decoration: none;
+	color:black;
+	font-size: 16px;
+}
+.home-navigation ul {
+	position: absolute;
+	width: 100%;
+	right: 1%;
+}
+.home-navigation ul li {
+	list-style: none;
+	display: inline-block;
+	margin-left: 20%;
+}
+.top-logo {
+	width:1230px;
+	height: 68px;
+	background: white;
+
+}
+.social-icons {
+	display:inline-block;
+	margin-top: 1%;
+	float:right;
+}
+.social-icons a img {
+	width: 35px;
+}
+.home-body {
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+.home-intro {
+	position: absolute;
+	left: 10%;
+	bottom: 44%;
+}
+.home-intro h1 {
+	font-size: 53px;
+	color: black;
+	font-family: 'Coming Soon', cursive;
+	
+}
+.home-intro2 {
+	position: absolute;
+  top: 45%;
+  left: 9%;
+  font-size: 35px;
+font-family: 'Alegreya Sans', sans-serif;
+}
+.bottom-scroll {
+	border-top: 1px solid black;
+  width: 100%;
+  position: absolute;
+  height: 130px;
+  top: 79%;
+  background: #FFD000;
+
+}
+.circle {
+	width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  left: 650px;
+  top: 65px;
+  margin: -25px 0 0 -25px;
+  border: 2px solid white;
+}
+.arrow{
+	color: white;
+	position: relative;
+	top: 30%;
+}
+.about-img {
+	width: 265px;
+	height: 435px;
+	display: inline-block;
+	margin: 7% 12%;
+	border: 1px solid black;
+	  background: rgb(255, 80, 80);
+
+}
+.about-img img {
+	margin-left: 21%;
+	border-radius: 50%;
+	margin-top: 11%;
+}
+.about-img .name-header {
+	margin:0;
+	font-size: 55px;
+	font-family: Arial, Helvetica, "sans-serif";
+	margin-left: 21%;
+	margin-right: 15%;
+}
+
+.about-img .name-title {
+	font-size: 20px;
+  font-family: Arial, Helvetica, "sans-serif";
+  position: relative;
+  top: 5%;
+  margin-left: 7%;
+}
+.header-navigation ul {
+	float: right;
+}
+.header-navigation a {
+	text-decoration: none;
+	color: rgb(135, 135, 149);
+}
+.header-navigation ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 91px;
+	font-family: Arial, Helvetica, "sans-serif";
+}
+.body-img {
+	width: 100%;
+	height: 250px;
+	background: black;
+}
+.about-txt {
+	display: inline-block;
+	width: 430px;
+}
+.footer {
+	width: 100%;
+	height: 100px;
+	background: black;
+	color: white;
+	overflow: hidden;
+	position: relative;
+}
+.phone-email {
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 5%;
+	margin-top: 2%;
+}
+.footer-container {
+	display: inline-block;
+	float: right;
+	width: 22%;
+	margin-top: 3%;
+}
+.footer-container a {
+	margin-left: 8%;
+
+}
+.copyright {
+	display: inline-block;
+	font-size: 12px;
+	position: absolute;
+	left: 40%;
+	top: 30%;
+}
+.skills-content h1 {
+	  margin: 2% 41%;
+  width: 205px;
+  font-size: 50px;
+}
+.skillset {
+	list-style: none;
+	margin-top: 8%;
+}
+.skillset li {
+	  display: inline-block;
+  border: 1px solid black;
+  margin-left: -4px;
+  height: 160px;
+  width: 24%;
+  text-align: center;
+  position: relative;
+  line-height: 150px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, "sans-serif";
+}
+.skillset li:hover {
+	color: white;
+	background-color: black;
+}
+.resume {
+	text-decoration: none;
+  	display: inline-block;
+  	border: 1px solid black;
+  	height: 50px;
+  	width: 160px;
+  	text-align: center;
+  	line-height: 48px;
+  	margin: 8% 43%;
+  	color: white;
+  	font-size: 18px;
+  	background: black;
+  	border-radius: 8%;
+}
+.resume:hover {
+	background:red;
+}
+.contact-content h1 {
+	margin-top: 8%;
+	margin-left: 24%;
+	font-size: 30px;
+	font-family: Arial, Helvetica, "sans-serif";
+}
+.form-container {
+	display:inline-block;
+	height: 543px;
+	width: 35%;
+	border: 1px solid black;
+	margin-left: 15%;
+	margin-bottom: 4%;
+}
+.contact-form {
+	padding-top: 4%;
+	background: rgb(0, 189, 255);
+}
+
+.contact-form .name, .email, .subject {
+	height: 36px;
+  	width: 80%;
+  	display: inline-block;
+}
+.contact-form input {
+	font-size: 15px;
+	padding-left: 1%;
+	margin-left: 9%;
+	margin-bottom: 2%;
+	border-radius: 7px;
+	margin-top: 5%;
+}
+.contact-form textarea {
+	width: 80%;
+	height: 155px;
+	font-size: 15px;
+	padding-left: 1%;
+	margin-left: 9%;
+	margin-bottom: 7%;
+	margin-top: 7%;
+	border-radius: 7px;
+}
+button {
+	width: 67%;
+	height: 50px;
+	margin-top: 3%;
+	font-size: 15px;
+	margin-left:15%;
+	margin-bottom:5%;
+	background: rgb(255, 15, 53);
+}
+button:hover {
+	cursor: pointer;
+	background: black;
+	color: white;
+}
+.contact-info {
+	display: inline-block;
+	position: absolute;
+  width: 400px;
+  height: 500px;
+  margin-left: 13%;
+  top: 35%;
+}
+.email-phone {
+	position:relative;
+	width: 50%;
+  height: 40%;
+  border: 1px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+.email-phone p {
+	text-align:center;
+	margin-top: 40%;
+}
+.home-pictures {
+	display: inline-block;
+	width: 400px;
+}
+.kobe {
+	position:absolute;
+	width: 300px;
+  margin-top: 3%;
+  margin-left: 25%;
+}
+.grinch {
+position:absolute;
+	width: 300px;
+  margin-top: 3%;
+}
+.lastname{
+border-bottom: 1px solid black;
+  padding-bottom: 3%;
+  box-shadow: 0 2px 0px black;
+  position:relative;
+  left: 5%;
+}
+.skill-container{
+	width: 350px;
+  height: 500px;
+  float: left;
+  margin-left: 5%;
+}
+.skills-list {
+	list-style: none;
+}
+.skills-list li {
+	border: 1px solid black;
+  display: inline-block;
+  width: 95%;
+  height: 147px;
+  text-align: center;
+  margin-top: 8%;
+}
