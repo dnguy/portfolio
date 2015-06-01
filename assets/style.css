@@ -30,11 +30,11 @@
 .main_nav > ul {
     margin-left: 35%;
 }
+.navbar-toggle{
+    background: white;
+}
 
-.home_content,
-#skills,
-#contact,
-#projects {
+.home_content {
     height: 100vh;
 }
 #skills {
@@ -230,4 +230,13 @@ hr {
   width: 240px;
   height: 2px;
 }
+.project_container{
+    margin-left: 6%;
+    height: 225px;
+    margin-bottom: 2%;
+}
+.project_container > img {
+    width: 100%;
+    height: 225px;
+  border: 2px solid black;
 }
