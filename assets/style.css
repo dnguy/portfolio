@@ -1,6 +1,16 @@
+
+.firstname:hover {
+	color:grey;
+	text-decoration: none;
+}
+.firstname:visited, .firstname:focus{ 
+	display: none;
+}
 .firstname {
     font-family: 'League Script', cursive;
     word-spacing: 15px;
+    color: white;
+    font-size: 25px;
 }
 
 .social_media {
@@ -21,133 +31,203 @@
     margin-left: 35%;
 }
 
+.home_content,
+#skills,
+#contact,
+#projects {
+    height: 100vh;
+}
+#skills {
+	  background-color: #f5f5f5
+}
+.contact_container{
+	margin-top: 6%;
+}
+
+.home_content {
+    position: relative;
+}
+
 .intro {
-    padding-left: 10%;
     padding-top: 10%;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 
 .intro > h1 {
     font-size: 53px;
     color: black;
     font-family: 'Coming Soon', cursive;
+    text-align: center;
 }
 
 .intro > p {
     font-size: 35px;
     font-family: 'Alegreya Sans', sans-serif;
 }
-.bottom-scroll {
-  border-top: 1px solid black;
-  height: 130px;
-  background: #FFD000;
 
+.bottom-scroll {
+    border-top: 1px solid black;
+    height: 130px;
+    background: #FFD000;
+    position: absolute;
+    bottom: 0px;
 }
+
 .circle {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: absolute;
-  left: 52%;
-  top: 52%;
-  margin: -25px 0 0 -25px;
-  border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 52%;
+    top: 52%;
+    margin: -25px 0 0 -25px;
+    border: 2px solid white;
+    -webkit-animation: pulsate 2s ease-out;
+    -webkit-animation-iteration-count: infinite;
 }
-.arrow{
-	color: white;
-	position: relative;
-	top: 30%;
-	left: 36%;
+
+@-webkit-keyframes pulsate {
+    0% {
+        -webkit-transform: scale(0.1, 0.1);
+        opacity: 0.0;
+    }
+    50% {
+        opacity: 1.0;
+    }
+    100% {
+        -webkit-transform: scale(1.2, 1.2);
+        opacity: 0.0;
+    }
 }
-.about{
-	background:rgb(216, 44, 46);
+
+.arrow {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 36%;
 }
+
+#about {
+    background: rgb(216, 44, 46);
+}
+
 .about_img {
-	text-align: center;
-	margin-top: 5%;
+    text-align: center;
+    margin-top: 5%;
 }
+
 .about_img > div > img {
-	border-radius: 50%;
-	margin-top: 8%;
-	width: 70%;
+    border-radius: 50%;
+    margin-top: 8%;
+    width: 70%;
 }
+
 .about_img > div > p {
-	font-size: 23px;
+    font-size: 23px;
+    font-weight: 900;
+}
+
+.name-header {
+    color: white;
+    font-size: 58px;
+}
+
+.bio {
+    padding-left: 10%;
+}
+
+.biology {
+    width: 175px;
+    margin-top: 25%;
+    margin-left: 18%;
+}
+
+.arrow_pos {
+    margin-top: 12%;
+    padding-left: 10%;
+}
+
+.arrow_img {
+    width: 150px;
+}
+
+.comp_pos {
+    margin-top: 8%;
+}
+
+.comp_img {
+    width: 230px;
+}
+
+.about_title {
+    text-align: center;
+    font-size: 30px;
+}
+
+.about_content {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.skills_title > h1 {
+	margin-top: 7%;
+	font-size: 52px;
 	font-weight: 900;
 }
-.name-header{
-	color:white;
-	font-size: 58px;
+.skills_title > p {
+	font-size: 18px;
 }
-.bio {
-	padding-left: 10%;
-}
-.biology {
-  width: 175px;
-  margin-top: 25%;
-  margin-left: 18%;
-}
-.arrow_pos{
-	margin-top: 12%;
-	padding-left: 10%;
-}
-.arrow_img{
-	width: 150px;
-}
-.comp_pos{
-	  margin-top: 8%;}
-.comp_img{
-	width: 230px;
-}
-.about_title{
-	text-align: center;
-	font-size:30px;
-}
-.about_content{
-	margin-top: 7%;
-	margin-bottom: 7%;
-}
-.skills > h1{
-	text-align: center;
-	margin-bottom: 5%;
-}
-.skill_set {
-	background: rgb(58, 58, 58);
-	border-radius: 10px;
-}
-.skill_set > div {
-	border: 1px solid black;
-	text-align: center;
-	margin: 7% 4%;
-	height: 220px;
-	border-radius: 10%;
-	background: rgb(222, 222, 222);
-}
-.skill_set > div > ul {
-	padding: 0;
-}
-.skill_set > div > ul > li{
-	list-style: none;
 
+.skills_title > h1, p {
+    text-align: center;
 }
+.skill_set > div > h3 {
+	font-weight: 900;
+}
+
+.skill_set > div {
+    text-align: center;
+    margin: 7% 4%;
+}
+
+.skill_set > div > ul {
+    padding: 0;
+}
+
+.skill_set > div > ul > li {
+    list-style: none;
+    font-size: 18px;
+}
+
 .contact_form {
-	  border: 1px solid black;
-  padding: 15% 9%;
-  background: rgb(0, 154, 255);
+    border: 1px solid black;
+    padding: 15% 9%;
+    background: rgb(0, 154, 255);
 }
+
 .contact_form > div > input {
-	margin-bottom: 6%;
+    margin-bottom: 6%;
 }
+
 button > span {
-	background: black;
+    background: black;
 }
+
 .black_strip {
-	height: 15px;
-  background: black;
-  margin-top: 4%;
+    height: 15px;
+    background: black;
+    margin-top: 4%;
 }
+
 @media (max-width: 480px) {
-  .skill_set > div {
-  	margin: 7% 0;
-  }
+    .skill_set > div {
+        margin: 7% 0;
+    }
+}
+hr {
+  border-bottom: 1px solid red;
+  border-top: 1px solid red;
+  height: 3px;
+  width: 240px;
+  height: 2px;
+}
 }
