@@ -40,8 +40,11 @@
 .home_content {
     height: 100vh;
 }
+#skills{
+ height: 100vh;
+ background-color: #f5f5f5;
+}
 
-#skills,
 #contact {
     background-color: #f5f5f5;
 }
@@ -272,6 +275,7 @@ hr {
 
 .grow {
     transform: translateY(-100%);
+    transition-duration: .5s;
 }
 
 .project_container:hover .grow {
@@ -279,7 +283,6 @@ hr {
 }
 
 .project_container:hover .img_grow {
-    opacity: .6;
     transform: scale(1.2);
     transition-duration: 1s;
 }
