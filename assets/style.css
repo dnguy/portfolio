@@ -316,6 +316,7 @@ hr {
 .sneaker_closet > span {
     font-size: 25px;
     border-bottom: 3px solid black;
+    text-align: center;
 }
 
 .sneaker_closet > a {
