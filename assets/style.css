@@ -37,7 +37,7 @@
     background: white;
 }
 
-.home_content {
+.home_content, #about {
     height: 100vh;
 }
 
@@ -64,7 +64,8 @@
 }
 
 .intro > h1 {
-    font-size: 53px;
+    font-size: 60px;
+    font-weight: 900;
     color: black;
     font-family: 'Coming Soon', cursive;
     text-align: center;
@@ -117,61 +118,14 @@
     left: 36%;
 }
 
-#about {
-    background: rgb(216, 44, 46);
-}
-
-.about_img {
-    text-align: center;
-    margin-top: 5%;
-}
-
-.about_img > div > img {
-    border-radius: 50%;
-    margin-top: 8%;
-    width: 70%;
-}
-
-.about_img > div > p {
-    font-size: 23px;
-    font-weight: 900;
-}
-
 .about_content > p {
-    color: white;
     font-size: 18px;
 }
 
 .name-header {
-    color: white;
+    margin-top: 7%;
+    text-align: center;
     font-size: 58px;
-}
-
-.bio {
-    padding-left: 10%;
-}
-
-.biology {
-    width: 175px;
-    margin-top: 25%;
-    margin-left: 18%;
-}
-
-.arrow_pos {
-    margin-top: 12%;
-    padding-left: 10%;
-}
-
-.arrow_img {
-    width: 150px;
-}
-
-.comp_pos {
-    margin-top: 8%;
-}
-
-.comp_img {
-    width: 230px;
 }
 
 .about_title {
@@ -180,8 +134,15 @@
 }
 
 .about_content {
-    margin-top: 7%;
+    margin-top: 2%;
     margin-bottom: 7%;
+}
+
+.resume {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);   
+    margin-bottom: 8%;
 }
 
 .skills_title > h1 {
@@ -340,6 +301,7 @@ hr {
 
 .sneaker_closet_description {
     font-size: 17px;
+    text-align: center;
 }
 
 .carousel-indicators .active {
@@ -380,9 +342,9 @@ hr {
         height: 200px;
     }
     .sneaker_closet > a {
-    font-size: 20px;
-    margin-left: 0px;
-    border-left: none;
-    padding: 0;
-}
+        font-size: 20px;
+        margin-left: 0px;
+        border-left: none;
+        padding: 0;
+    }
 }
