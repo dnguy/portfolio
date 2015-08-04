@@ -141,7 +141,7 @@
 .resume {
     position: relative;
     left: 50%;
-    transform: translateX(-50%);   
+    -webkit-transform: translateX(-50%);   
     margin-bottom: 8%;
 }
 
@@ -233,16 +233,16 @@ hr {
 }
 
 .grow {
-    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
     transition-duration: .5s;
 }
 
 .project_container:hover .grow {
-    transform: translateY(200%);
+    -webkit-transform: translateY(200%);
 }
 
 .project_container:hover .img_grow {
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
     transition-duration: 1s;
 }
 
