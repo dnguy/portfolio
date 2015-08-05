@@ -302,6 +302,7 @@ hr {
 
 .sneaker_closet_description {
     font-size: 17px;
+    margin-bottom: 3%;
     text-align: center;
 }
 
@@ -311,6 +312,19 @@ hr {
 
 .carousel-indicators li {
     border: 1px solid black;
+}
+.thumbnail {
+    height: 510px;
+}
+.thumbnail > img {
+    height: 249px;
+    border-bottom: 1px solid black;
+}
+.caption > h3{
+    text-align: center;
+}
+.myCarousel{
+    margin: 0 auto;
 }
 
 @media (max-width: 480px) {
